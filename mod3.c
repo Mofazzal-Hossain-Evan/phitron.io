@@ -58,17 +58,36 @@ int main()
 // }
 
 
-int i,n;
-for(i=1;i<=10;i=i+1)
-  {
-    if (i==5)
-    {
-      continue;
-    }
-    printf("%d\n",i);
-  }
+// int i,n;
+// for(i=1;i<=10;i=i+1)
+//   {
+//     if (i==5)
+//     {
+//       continue;
+//     }
+//     printf("%d\n",i);
+//   }
+
+//মডিউল ৩-৯: While & Do While লুপ
 
 
+// int i;
+// i=1;
+// while(i<=5)
+//  {
+//   printf("%d\n", i);
+//   i=i+1;
+//  }
 
+int i;
+i=0;
+do
+{
+  printf("%d\n", i);
+  i=i+3;
+}
+while(i<=15);
+
+ 
 return 0;
 }
