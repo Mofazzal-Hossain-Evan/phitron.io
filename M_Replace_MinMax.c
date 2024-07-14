@@ -64,11 +64,11 @@ Certainly! Let's walk through the swapping process step-by-step for the input yo
    ```
 
 3. The swapping happens in these lines:
-   ```c
+   
    int temp = A[min_index];
    A[min_index] = A[max_index];
    A[max_index] = temp;
-   ```
+
 
    Let's break this down:
    - `temp = A[min_index]` : temp = A[1] = 1
