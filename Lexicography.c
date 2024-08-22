@@ -53,5 +53,21 @@ int main()
     char a[100], b[100];
     scanf("%s %s", a,b);
     int v=strcmp(a,b);
-    printf("%d",v);
+   //printf("%d",v);
+
+    if(v<0)
+    {
+        printf("a choto\n");
+       // break;
+    } 
+    else if(v>0)
+    {
+        printf("b choto\n");
+        //break;
+    }
+    else
+    {
+    printf("same\n");
+    //break;
+    }
 }
