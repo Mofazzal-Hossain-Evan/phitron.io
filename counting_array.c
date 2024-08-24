@@ -38,7 +38,7 @@ int main()
     {
         scanf("%d",&a[i]);
     }
-    int cnt[7]={0};
+    int cnt[101]={0};
     for(int i=0; i<n; i++)
     {
        int val=a[i];

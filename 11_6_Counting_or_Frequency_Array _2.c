@@ -11,9 +11,5 @@ int main()
         cnt[value]++;
         
     }
-    for(int i=0;i<26;i++)
-    {
-    printf("%c - %d\n",i+97,cnt[i]);
-    }
-
+    printf("%d", cnt[0]);
 }
