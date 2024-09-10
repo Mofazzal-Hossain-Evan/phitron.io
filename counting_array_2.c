@@ -11,9 +11,27 @@ int main()
         cnt[value]++;
         
     }
-    for(int i=0;i<26;i++)
+    // for(int i=0;i<26;i++)
+    // {
+  
+// printf("%c - %d\n",i+97,cnt[i]);
+
+//    if(cnt[i]!=0)
+//    {
+//     printf("%c - %d\n",i+97,cnt[i]);
+//    }
+//    }
+
+for(int i=0;i<strlen(s);i++)
+{
+    int value=s[i]-97;
+    if(cnt[value]!=0)
     {
-    printf("%c - %d\n",i+97,cnt[i]);
+        printf("%c - %d\n",value+'a',cnt[value]);
+
     }
+
+    cnt[value]=0;
+}
 
 }
